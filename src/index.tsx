@@ -1,9 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
-ReactDOM.render(
-  <React.StrictMode>
-    <p>si</p>
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+export * from "./components/MyLabel";
+export * from "./stories/Button";
+export * from "./stories/Header";
+export * from "./stories/Page";
